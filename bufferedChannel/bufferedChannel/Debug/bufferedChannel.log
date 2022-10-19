@@ -1,0 +1,14 @@
+﻿  bufferedChannel.cpp
+C:\Users\Hokage\source\repos\bufferedChannel\bufferedChannel\bufferedChannel.h(33,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\Hokage\source\repos\bufferedChannel\bufferedChannel\bufferedChannel.h(25): message : во время компиляции функции-члена класс шаблон "void bufferedChannel<int>::send(T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Hokage\source\repos\bufferedChannel\bufferedChannel\bufferedChannel.cpp(7): message : выполняется компиляция ссылки на экземпляр шаблон функции "void bufferedChannel<int>::send(T)"
+          with
+          [
+              T=int
+          ]
+C:\Users\Hokage\source\repos\bufferedChannel\bufferedChannel\bufferedChannel.cpp(7): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "bufferedChannel<int>"
+  bufferedChannel.vcxproj -> C:\Users\Hokage\source\repos\bufferedChannel\Debug\bufferedChannel.exe
